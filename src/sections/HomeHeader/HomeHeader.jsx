@@ -1,4 +1,5 @@
 import style from "./HomeHeader.module.css";
+import Navbar from "../../components/Navbar/Navbar";
 import video from "../../assets/videos/home-header-background.mp4";
 import logo from "../../assets/images/logo-gold.png";
 import { FaInstagram, FaWhatsapp, FaFacebookF } from "react-icons/fa";
@@ -12,7 +13,7 @@ export default function HomeHeader() {
             </video>
             <div className={style.content}>
                 <div className={style.navbar}>
-                    <div style={{ backgroundColor: "white" }}>Navbar</div>
+                    <Navbar />
                 </div>
                 <div className={style.data}>
                     <div className={style.dataImage}>
