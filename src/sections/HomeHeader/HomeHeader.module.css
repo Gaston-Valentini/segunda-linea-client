@@ -1,0 +1,117 @@
+.container {
+    position: relative;
+}
+
+.video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.content {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: var(--overlay);
+    border-radius: 15px;
+}
+
+.navbar {
+    padding: 40px 0 0 40px;
+    display: flex;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dataImage {
+    padding: 0 0 40px 40px;
+}
+
+.dataSocial {
+    align-self: flex-end;
+    height: max-content;
+    padding: 15px 0 0 15px;
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    background-color: var(--black);
+    border-radius: 20px 0 0 0;
+    position: relative;
+}
+
+.dataSocial::before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 30px;
+    height: 30px;
+    background: var(--black);
+    transform: rotate(45deg);
+}
+
+.dataSocial::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: -15px;
+    width: 30px;
+    height: 30px;
+    background: var(--black);
+    transform: rotate(-45deg);
+}
+
+.dataSocialElementLinkIcon {
+    padding: 10px;
+    color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 50%;
+}
+
+.dataSocialElementLinkIcon:hover {
+    color: black;
+    background-color: var(--white);
+    transition: 0.5s;
+}
+
+@media (max-width: 1200px) {
+    .content {
+        align-items: center;
+        gap: 40px;
+    }
+    .data {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .dataImage {
+        max-width: 440px;
+        width: calc(100% - 80px);
+        padding: 0 40px;
+    }
+    .dataImage img {
+        width: 100%;
+    }
+    .dataSocial {
+        align-self: flex-end;
+    }
+}
+
+@media (max-width: 810px) {
+    .navbar {
+        padding: 20px 0 0 20px;
+        align-self: flex-start;
+    }
+    .dataImage {
+        width: calc(100% - 40px);
+        padding: 0 20px;
+    }
+}

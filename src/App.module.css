@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    font-family: var(--sedan);
+}
+
+.app {
+    min-height: calc(100vh - 50px);
+    padding: 25px;
+    background-color: var(--black);
+}
