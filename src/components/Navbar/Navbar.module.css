@@ -68,8 +68,13 @@
     border-radius: 10px;
 }
 
+.linksElementLink:hover {
+    outline: 1px solid var(--white);
+    background-color: var(--grey);
+}
+
 .linksElementLinkActive {
-    border: 1px solid var(--white);
+    outline: 1px solid var(--white);
     background-color: var(--grey);
 }
 
@@ -78,17 +83,16 @@
 }
 
 .menuMobileActive {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
-    width: calc(100% - 50px);
-    min-height: calc(100vh - 100px);
+    width: calc(100% - 52px);
+    min-height: calc(100vh - 52px);
     padding: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: var(--black);
-    border-radius: 15px;
     border: 1px solid var(--white);
     z-index: 10;
 }

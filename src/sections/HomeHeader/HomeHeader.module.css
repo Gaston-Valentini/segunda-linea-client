@@ -34,6 +34,11 @@
     padding: 0 0 40px 40px;
 }
 
+.dataImage img {
+    height: 100%;
+    width: 100%;
+}
+
 .dataSocial {
     align-self: flex-end;
     height: max-content;
@@ -90,11 +95,10 @@
         width: 100%;
         flex-direction: column;
         align-items: center;
-        gap: 40px;
+        gap: 57px;
     }
     .dataImage {
         max-width: 440px;
-        width: calc(100% - 80px);
         padding: 0 40px;
     }
     .dataImage img {
@@ -110,8 +114,10 @@
         padding: 20px 0 0 20px;
         align-self: flex-start;
     }
+    .data {
+        gap: 40px;
+    }
     .dataImage {
-        width: calc(100% - 40px);
         padding: 0 20px;
     }
 }

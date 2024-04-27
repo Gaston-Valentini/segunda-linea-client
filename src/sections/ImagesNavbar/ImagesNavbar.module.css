@@ -1,0 +1,91 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.element {
+    text-decoration: none;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background: var(--overlay);
+    border-radius: 15px;
+}
+
+.overlay:hover {
+    cursor: pointer;
+    background: none;
+}
+
+.elementTag {
+    position: relative;
+    padding: 15px 0 0 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--black);
+    border-radius: 15px 0 0 0;
+}
+
+.elementTag::before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 30px;
+    height: 30px;
+    background: var(--black);
+    transform: rotate(45deg);
+}
+
+.elementTag::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: -15px;
+    width: 30px;
+    height: 30px;
+    background: var(--black);
+    transform: rotate(-45deg);
+}
+
+.elementTagText {
+    color: var(--white);
+}
+
+.elementTagIcon {
+    padding: 7px;
+    color: var(--white);
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.elementTagIcon:hover {
+    color: var(--black);
+    background-color: var(--white);
+    transition: 0.5s;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+
+@media (max-width: 810px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
