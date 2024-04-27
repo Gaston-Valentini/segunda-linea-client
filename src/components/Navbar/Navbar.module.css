@@ -1,5 +1,6 @@
 .container {
     height: 40px;
+    width: max-content;
     padding: 10px;
     display: flex;
     gap: 20px;
