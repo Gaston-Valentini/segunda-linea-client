@@ -1,0 +1,62 @@
+.container {
+    max-width: 800px;
+    display: flex;
+    gap: 25px;
+}
+
+.image {
+    height: 100px;
+    width: 150px;
+    min-width: 150px;
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.dataPrincipal {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.dataPrincipalName {
+    font-size: 20px;
+    color: var(--white);
+}
+
+.dataPrincipalDivisor {
+    align-self: center;
+    flex-grow: 1;
+    border: 1px dashed var(--white);
+}
+
+.dataPrincipalPrice {
+    font-size: 20px;
+    color: var(--white);
+}
+
+.dataDescription {
+    font-family: var(--inter);
+    color: var(--lightGrey);
+}
+
+@media (max-width: 640px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .image {
+        width: 100%;
+        height: auto;
+    }
+}

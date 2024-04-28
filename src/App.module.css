@@ -2,6 +2,7 @@
     margin: 0;
     font-size: 14px;
     font-family: var(--sedan);
+    scroll-behavior: smooth;
 }
 
 .app {

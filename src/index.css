@@ -1,5 +1,6 @@
 :root {
     --white: #efe7d2;
+    --lightGrey: #757370;
     --black: #0a0b0a;
     --grey: #1e1e1e;
     --overlay: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);

@@ -66,13 +66,14 @@
 .elementTagIcon {
     padding: 7px;
     color: var(--white);
-    border: 1px solid white;
+    border: 1px solid var(--lightGrey);
     border-radius: 50%;
 }
 
 .elementTagIcon:hover {
     color: var(--black);
     background-color: var(--white);
+    border: 1px solid var(--white);
     transition: 0.5s;
 }
 

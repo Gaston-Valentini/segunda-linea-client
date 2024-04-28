@@ -74,15 +74,17 @@
 }
 
 .dataSocialElementLinkIcon {
-    padding: 10px;
+    padding: 9px;
+    font-size: 20px;
     color: var(--white);
-    border: 1px solid var(--white);
+    border: 1px solid var(--lightGrey);
     border-radius: 50%;
 }
 
 .dataSocialElementLinkIcon:hover {
     color: black;
     background-color: var(--white);
+    border: 1px solid var(--white);
     transition: 0.5s;
 }
 
@@ -98,7 +100,7 @@
         gap: 57px;
     }
     .dataImage {
-        max-width: 440px;
+        max-width: 250px;
         padding: 0 40px;
     }
     .dataImage img {

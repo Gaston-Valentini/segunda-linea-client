@@ -6,8 +6,11 @@
 }
 
 @media (max-width: 1200px) {
+    .invisible {
+        display: none;
+    }
     .container {
         grid-template-columns: 1fr;
-        grid-row: 1fr auto;
+        grid-template-rows: 400px 1fr;
     }
 }

@@ -66,16 +66,18 @@
     text-decoration: none;
     font-family: var(--inter);
     color: var(--white);
+    border: 1px solid var(--black);
     border-radius: 10px;
 }
 
 .linksElementLink:hover {
-    outline: 1px solid var(--white);
+    border: 1px solid var(--lightGrey);
     background-color: var(--grey);
+    transition: 1s;
 }
 
 .linksElementLinkActive {
-    outline: 1px solid var(--white);
+    border: 1px solid var(--lightGrey);
     background-color: var(--grey);
 }
 

@@ -1,9 +1,9 @@
 import style from "./App.module.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./views/Home/Home";
-import About from "./views/About/About";
-import Menu from "./views/Menu/Menu";
-import Contact from "./views/Contact/Contact";
+import Home from "./views/HomeView/HomeView";
+import About from "./views/AboutView/AboutView";
+import Menu from "./views/MenuView/MenuView";
+import Contact from "./views/ContactView/ContactView";
 
 export default function App() {
     return (
