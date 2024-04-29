@@ -4,6 +4,7 @@ import headerImage from "../../assets/images/contact.webp";
 import Form from "../../sections/Form/Form";
 import Gallery from "../../sections/Gallery/Gallery";
 import Map from "../../sections/Map/Map";
+import ContactData from "../../sections/ContactData/ContactData";
 
 export default function ContactView() {
     return (
@@ -14,6 +15,7 @@ export default function ContactView() {
                 <Form />
                 <Gallery />
                 <Map />
+                <ContactData />
             </div>
         </section>
     );

@@ -1,0 +1,112 @@
+.container {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    border: 1px solid var(--lightGrey);
+    border-radius: 15px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.titleText {
+    font-size: 20px;
+    color: var(--white);
+}
+
+.hours {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.hoursDays {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hoursDaysDay {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.hoursDaysDayText {
+    font-family: var(--inter);
+    color: var(--white);
+}
+
+.hoursDaysDayDivisor {
+    flex-grow: 1;
+    align-self: flex-end;
+    border: 1px dashed var(--lightGrey);
+}
+
+.hoursDaysDayNumber {
+    font-family: var(--inter);
+    color: var(--white);
+}
+
+.data {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.dataInfo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dataInfoElement {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.dataInfoElementInput {
+    font-family: var(--inter);
+    color: var(--white);
+}
+
+.dataInfoElementOutput {
+    text-align: right;
+    font-family: var(--inter);
+    color: var(--white);
+}
+
+.dataInfoElementSocial {
+    display: flex;
+    gap: 5px;
+}
+
+.dataInfoElementSocial a svg {
+    padding: 10px;
+    font-size: 20px;
+    color: var(--white);
+    border: 1px solid var(--lightGrey);
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.dataInfoElementSocial a svg:hover {
+    color: var(--black);
+    background-color: var(--white);
+    border: 1px solid var(--white);
+}
