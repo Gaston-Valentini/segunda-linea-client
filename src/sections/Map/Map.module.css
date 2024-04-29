@@ -1,0 +1,66 @@
+.container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: 15px;
+}
+
+.map {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.tag {
+    position: relative;
+    padding: 15px 0 0 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    background-color: var(--black);
+    border-radius: 15px 0 0 0;
+}
+
+.tag::before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 30px;
+    height: 30px;
+    background: var(--black);
+    transform: rotate(45deg);
+}
+
+.tag::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: -15px;
+    width: 30px;
+    height: 30px;
+    background: var(--black);
+    transform: rotate(-45deg);
+}
+
+.tagText {
+    color: var(--white);
+}
+
+.tagIcon {
+    padding: 7px;
+    color: var(--white);
+    border: 1px solid var(--lightGrey);
+    border-radius: 50%;
+}
+
+.tagIcon:hover {
+    color: var(--black);
+    background-color: var(--white);
+    border: 1px solid var(--white);
+    transition: 0.5s;
+}
