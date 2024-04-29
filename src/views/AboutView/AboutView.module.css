@@ -6,9 +6,9 @@
 }
 
 .content {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 4fr 2fr 4fr;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 @media (max-width: 1200px) {
