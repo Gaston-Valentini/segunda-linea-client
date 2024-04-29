@@ -89,10 +89,6 @@
 }
 
 @media (max-width: 1300px) {
-    .content {
-        align-items: center;
-        gap: 40px;
-    }
     .data {
         width: 100%;
         flex-direction: column;
@@ -100,7 +96,7 @@
         gap: 57px;
     }
     .dataImage {
-        max-width: 250px;
+        max-width: 400px;
         padding: 0 40px;
     }
     .dataImage img {
@@ -111,15 +107,30 @@
     }
 }
 
-@media (max-width: 810px) {
+@media (max-width: 630px) {
     .navbar {
         padding: 20px 0 0 20px;
         align-self: flex-start;
     }
+
     .data {
         gap: 40px;
     }
     .dataImage {
+        max-width: 250px;
         padding: 0 20px;
+    }
+    .dataSocial::before {
+        top: -10px;
+        right: -10px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .dataSocial::after {
+        bottom: -10px;
+        left: -10px;
+        width: 20px;
+        height: 20px;
     }
 }

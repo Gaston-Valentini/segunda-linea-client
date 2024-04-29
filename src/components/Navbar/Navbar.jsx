@@ -68,7 +68,7 @@ export default function Navbar() {
                         </Link>
                     </li>
                     <li className={style.menuMobileLinksElement} onClick={switchMenu}>
-                        <Link to="/contacto" className={style.menuMobileLinksElementLink}>
+                        <Link to="/contact" className={style.menuMobileLinksElementLink}>
                             CONTACTO
                         </Link>
                     </li>

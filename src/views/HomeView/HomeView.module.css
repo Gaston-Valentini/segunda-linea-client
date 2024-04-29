@@ -13,9 +13,11 @@
     }
 }
 
-@media (max-width: 810px) {
+@media (max-width: 630px) {
     .container {
+        min-height: calc(100vh - 30px);
         grid-template-columns: 1fr;
         grid-template-rows: 400px 1fr;
+        gap: 15px;
     }
 }
