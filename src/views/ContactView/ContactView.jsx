@@ -2,6 +2,7 @@ import style from "./ContactView.module.css";
 import SectionHeader from "../../components/SectionHeader/SectionHeader";
 import headerImage from "../../assets/images/contact.webp";
 import Form from "../../sections/Form/Form";
+import Gallery from "../../sections/Gallery/Gallery";
 
 export default function ContactView() {
     return (
@@ -10,6 +11,7 @@ export default function ContactView() {
             <div className={style.invisible}></div>
             <div className={style.content}>
                 <Form />
+                <Gallery />
             </div>
         </section>
     );
