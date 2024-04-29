@@ -1,0 +1,84 @@
+.container {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    border: 1px solid var(--lightGrey);
+    border-radius: 15px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.titleText {
+    text-align: center;
+    font-size: 20px;
+    color: var(--white);
+}
+
+.reviews {
+    overflow: hidden;
+}
+
+.reviewsBig {
+    width: 500%;
+    display: flex;
+}
+
+.reviewsBigCard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: 0.5s;
+}
+
+.reviewsBigCardImage img {
+    width: 100%;
+    height: 100%;
+}
+
+.reviewsBigCardName {
+    color: var(--white);
+}
+
+.reviewsBigCardRating {
+    font-size: 20px;
+    color: rgb(241, 194, 38);
+}
+
+.reviewsBigCardText {
+    max-width: 600px;
+    text-align: center;
+    font-family: var(--inter);
+    font-style: italic;
+    color: var(--lightGrey);
+}
+
+.reviewsBigCardTime {
+    align-self: flex-end;
+    text-transform: uppercase;
+    color: var(--lightGrey);
+}
+
+.reviewsDots {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.reviewsDotsDot {
+    height: 5px;
+    width: 5px;
+    background-color: var(--lightGrey);
+    border-radius: 50%;
+}
+
+.reviewsDotsDot:hover {
+    cursor: pointer;
+}

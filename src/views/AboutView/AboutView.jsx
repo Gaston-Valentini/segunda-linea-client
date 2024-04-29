@@ -3,6 +3,7 @@ import SectionHeader from "../../components/SectionHeader/SectionHeader";
 import headerImage from "../../assets/images/about.webp";
 import Story from "../../sections/Story/Story";
 import Team from "../../sections/Team/Team";
+import Reviews from "../../sections/Reviews/Reviews";
 
 export default function AboutView() {
     return (
@@ -12,6 +13,7 @@ export default function AboutView() {
             <div className={style.content}>
                 <Story />
                 <Team />
+                <Reviews />
             </div>
         </section>
     );
