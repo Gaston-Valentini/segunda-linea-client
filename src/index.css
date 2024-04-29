@@ -7,3 +7,20 @@
     --sedan: "Sedan", serif;
     --inter: "Inter", sans-serif;
 }
+
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--black);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--white);
+    border-radius: 6px; /* Borde redondeado */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--lightGrey);
+}
