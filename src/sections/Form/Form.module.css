@@ -1,0 +1,90 @@
+.container {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    border: 1px solid var(--lightGrey);
+    border-radius: 15px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.titleText {
+    font-size: 20px;
+    color: var(--white);
+}
+
+.form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formInput {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-family: var(--inter);
+    color: var(--lightGrey);
+    background-color: var(--black);
+    border: 1px solid var(--lightGrey);
+    border-radius: 9px;
+    transition: 0.5s;
+}
+
+.formInput:focus {
+    color: var(--white);
+    outline: none;
+    border: 1px solid var(--white);
+    background-color: var(--grey);
+}
+
+.formInput:focus::placeholder {
+    color: var(--white);
+}
+
+.formTextarea {
+    width: calc(100% - 20px);
+    flex-grow: 1;
+    padding: 10px;
+    font-family: var(--inter);
+    color: var(--lightGrey);
+    background-color: var(--black);
+    border: 1px solid var(--lightGrey);
+    border-radius: 10px;
+    transition: 0.5s;
+    resize: none;
+}
+
+.formTextarea:focus {
+    color: var(--white);
+    outline: none;
+    border: 1px solid var(--white);
+    background-color: var(--grey);
+}
+
+.formTextarea:focus::placeholder {
+    color: var(--white);
+}
+
+.formSend {
+    width: 100%;
+    padding: 10px;
+    font-weight: 600;
+    font-family: var(--inter);
+    background-color: var(--white);
+    border: none;
+    border-radius: 9px;
+    transition: 0.5s;
+}
+
+.formSend:hover {
+    cursor: pointer;
+    background-color: #ffebba;
+}
