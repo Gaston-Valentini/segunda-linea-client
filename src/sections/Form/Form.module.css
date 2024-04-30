@@ -88,3 +88,9 @@
     cursor: pointer;
     background-color: #ffebba;
 }
+
+@media (max-width: 1300px) {
+    .formTextarea {
+        min-height: 100px;
+    }
+}

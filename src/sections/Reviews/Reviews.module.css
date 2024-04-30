@@ -30,7 +30,7 @@
 }
 
 .reviewsBigCard {
-    width: 100%;
+    width: calc(100% / 5);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -81,4 +81,14 @@
 
 .reviewsDotsDot:hover {
     cursor: pointer;
+}
+
+@media (max-width: 630px) {
+    .reviewsBig {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .reviewsDots {
+        display: none;
+    }
 }

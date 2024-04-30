@@ -2,6 +2,7 @@
     padding: 25px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     gap: 40px;
     border: 1px solid var(--lightGrey);
