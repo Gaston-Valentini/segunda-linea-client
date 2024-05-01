@@ -5,6 +5,14 @@ import logo from "../../assets/images/logo-gold.png";
 import { FaInstagram, FaWhatsapp, FaFacebookF } from "react-icons/fa";
 
 export default function HomeHeader() {
+    const onWhatsapp = () => {
+        const phone = "+34680827925";
+        const message = "!Hola!, mi nombre es:";
+        const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+
+        window.open(url);
+    };
+
     return (
         <header className={style.container}>
             <video className={style.video} autoPlay loop muted>
@@ -21,14 +29,14 @@ export default function HomeHeader() {
                     </div>
                     <ul className={style.dataSocial}>
                         <li className={style.dataSocialElement}>
-                            <a href="#" className={style.dataSocialElementLink}>
+                            <a href="https://www.instagram.com/explore/locations/167720516435617/segundalinea-gastrobar/" target="blank" className={style.dataSocialElementLink}>
                                 <FaInstagram className={style.dataSocialElementLinkIcon} />
                             </a>
                         </li>
                         <li className={style.dataSocialElement}>
-                            <a href="#" className={style.dataSocialElementLink}>
+                            <div className={style.dataSocialElementLink} onClick={onWhatsapp}>
                                 <FaWhatsapp className={style.dataSocialElementLinkIcon} />
-                            </a>
+                            </div>
                         </li>
                         <li className={style.dataSocialElement}>
                             <a href="#" className={style.dataSocialElementLink}>

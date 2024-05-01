@@ -10,6 +10,7 @@
     display: flex;
     justify-content: center;
     gap: 10px;
+    flex-wrap: wrap;
     border: 1px solid var(--lightGrey);
     border-radius: 15px;
 }
@@ -40,8 +41,10 @@
 }
 
 .menuSection {
+    width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 40px;
 }
 
@@ -57,17 +60,16 @@
 }
 
 .menuSectionPlates {
+    width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 25px;
 }
 
 @media (max-width: 630px) {
     .container {
         gap: 15px;
-    }
-    .navbar {
-        flex-wrap: wrap;
     }
     .menu {
         padding: 20px;

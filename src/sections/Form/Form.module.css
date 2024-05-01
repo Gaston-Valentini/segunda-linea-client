@@ -51,6 +51,7 @@
 
 .formTextarea {
     width: calc(100% - 20px);
+    min-height: 100px;
     flex-grow: 1;
     padding: 10px;
     font-family: var(--inter);
@@ -89,7 +90,7 @@
     background-color: #ffebba;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 630px) {
     .formTextarea {
         min-height: 100px;
     }

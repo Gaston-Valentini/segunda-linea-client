@@ -27,7 +27,7 @@ export default function ImagesNavbar() {
             <Link to="/contact" className={style.element} style={{ backgroundImage: `url(${contactImage})` }}>
                 <div className={style.overlay}>
                     <div className={style.elementTag}>
-                        <p className={style.elementTagText}>CONTACT</p>
+                        <p className={style.elementTagText}>CONTACTO</p>
                         <IoArrowForwardSharp className={style.elementTagIcon} />
                     </div>
                 </div>

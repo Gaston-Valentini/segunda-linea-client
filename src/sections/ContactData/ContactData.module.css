@@ -97,7 +97,7 @@
     gap: 5px;
 }
 
-.dataInfoElementSocial a svg {
+.dataInfoElementSocialLinkIcon {
     padding: 10px;
     font-size: 20px;
     color: var(--white);
@@ -106,7 +106,7 @@
     transition: 0.5s;
 }
 
-.dataInfoElementSocial a svg:hover {
+.dataInfoElementSocialLinkIcon:hover {
     color: var(--black);
     background-color: var(--white);
     border: 1px solid var(--white);

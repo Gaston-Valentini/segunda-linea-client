@@ -6,6 +6,14 @@ import { FaWhatsapp } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 
 export default function ContactData() {
+    const onWhatsapp = () => {
+        const phone = "+34680827925";
+        const message = "!Hola!, mi nombre es:";
+        const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+
+        window.open(url);
+    };
+
     return (
         <section className={style.container}>
             <div className={style.hours}>
@@ -18,37 +26,37 @@ export default function ContactData() {
                     <div className={style.hoursDaysDay}>
                         <p className={style.hoursDaysDayText}>Lunes</p>
                         <hr className={style.hoursDaysDayDivisor} />
-                        <p className={style.hoursDaysDayNumber}>10:00 - 23:00</p>
+                        <p className={style.hoursDaysDayNumber}>09:00 - 23:00</p>
                     </div>
                     <div className={style.hoursDaysDay}>
                         <p className={style.hoursDaysDayText}>Martes</p>
                         <hr className={style.hoursDaysDayDivisor} />
-                        <p className={style.hoursDaysDayNumber}>10:00 - 23:00</p>
+                        <p className={style.hoursDaysDayNumber}>09:00 - 23:00</p>
                     </div>
                     <div className={style.hoursDaysDay}>
                         <p className={style.hoursDaysDayText}>Miércoles</p>
                         <hr className={style.hoursDaysDayDivisor} />
-                        <p className={style.hoursDaysDayNumber}>10:00 - 23:00</p>
+                        <p className={style.hoursDaysDayNumber}>09:00 - 23:00</p>
                     </div>
                     <div className={style.hoursDaysDay}>
                         <p className={style.hoursDaysDayText}>Jueves</p>
                         <hr className={style.hoursDaysDayDivisor} />
-                        <p className={style.hoursDaysDayNumber}>10:00 - 23:00</p>
+                        <p className={style.hoursDaysDayNumber}>09:00 - 23:00</p>
                     </div>
                     <div className={style.hoursDaysDay}>
                         <p className={style.hoursDaysDayText}>Viernes</p>
                         <hr className={style.hoursDaysDayDivisor} />
-                        <p className={style.hoursDaysDayNumber}>10:00 - 23:00</p>
+                        <p className={style.hoursDaysDayNumber}>09:00 - 23:00</p>
                     </div>
                     <div className={style.hoursDaysDay}>
                         <p className={style.hoursDaysDayText}>Sábado</p>
                         <hr className={style.hoursDaysDayDivisor} />
-                        <p className={style.hoursDaysDayNumber}>10:00 - 23:00</p>
+                        <p className={style.hoursDaysDayNumber}>09:00 - 23:00</p>
                     </div>
                     <div className={style.hoursDaysDay}>
                         <p className={style.hoursDaysDayText}>Domingo</p>
                         <hr className={style.hoursDaysDayDivisor} />
-                        <p className={style.hoursDaysDayNumber}>10:00 - 23:00</p>
+                        <p className={style.hoursDaysDayNumber}>09:00 - 23:00</p>
                     </div>
                 </div>
             </div>
@@ -65,7 +73,7 @@ export default function ContactData() {
                     </div>
                     <div className={style.dataInfoElement}>
                         <p className={style.dataInfoElementInput}>TELÉFONO</p>
-                        <p className={style.dataInfoElementOutput}>680827925</p>
+                        <p className={style.dataInfoElementOutput}>+34680827925</p>
                     </div>
                     <div className={style.dataInfoElement}>
                         <p className={style.dataInfoElementInput}>EMAIL</p>
@@ -74,14 +82,14 @@ export default function ContactData() {
                     <div className={style.dataInfoElement}>
                         <p className={style.dataInfoElementInput}>SÍGUENOS</p>
                         <div className={style.dataInfoElementSocial}>
-                            <a href="#">
-                                <FaInstagram />
+                            <a href="https://www.instagram.com/explore/locations/167720516435617/segundalinea-gastrobar/" target="blank" className={style.dataInfoElementSocialLink}>
+                                <FaInstagram className={style.dataInfoElementSocialLinkIcon} />
                             </a>
-                            <a href="#">
-                                <FaWhatsapp />
-                            </a>
-                            <a href="#">
-                                <FaFacebookF />
+                            <div className={style.dataInfoElementSocialLink} onClick={onWhatsapp}>
+                                <FaWhatsapp className={style.dataInfoElementSocialLinkIcon} />
+                            </div>
+                            <a href="#" target="blank" className={style.dataInfoElementSocialLink}>
+                                <FaFacebookF className={style.dataInfoElementSocialLinkIcon} />
                             </a>
                         </div>
                     </div>
