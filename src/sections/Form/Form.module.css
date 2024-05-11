@@ -90,6 +90,18 @@
     background-color: #ffebba;
 }
 
+.formMessageOk {
+    text-align: center;
+    color: greenyellow;
+    transition: 2s;
+}
+
+.formMessageBad {
+    text-align: center;
+    color: red;
+    transition: 2s;
+}
+
 @media (max-width: 630px) {
     .formTextarea {
         min-height: 100px;
