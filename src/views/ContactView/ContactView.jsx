@@ -1,6 +1,6 @@
 import style from "./ContactView.module.css";
 import SectionHeader from "../../components/SectionHeader/SectionHeader";
-import headerImage from "../../assets/images/contact.webp";
+import headerImage from "../../assets/images/contact-header.jpg";
 import Form from "../../sections/Form/Form";
 import Gallery from "../../sections/Gallery/Gallery";
 import Map from "../../sections/Map/Map";

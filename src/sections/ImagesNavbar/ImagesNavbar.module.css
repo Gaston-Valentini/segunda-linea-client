@@ -68,13 +68,13 @@
     color: var(--white);
     border: 1px solid var(--lightGrey);
     border-radius: 50%;
+    transition: 0.5s;
 }
 
 .elementTagIcon:hover {
     color: var(--black);
     background-color: var(--white);
     border: 1px solid var(--white);
-    transition: 0.5s;
 }
 
 @media (max-width: 1300px) {

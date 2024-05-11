@@ -8,7 +8,7 @@
 }
 
 .containerBig {
-    width: 300%;
+    width: 500%;
     height: 100%;
     display: flex;
     border-radius: 15px;
@@ -16,7 +16,8 @@
 }
 
 .containerBig img {
-    width: calc(100% / 3);
+    max-height: 400px;
+    width: calc(100% / 5);
     object-fit: cover;
     border-radius: 15px;
 }

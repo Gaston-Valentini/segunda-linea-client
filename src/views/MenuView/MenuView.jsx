@@ -1,6 +1,6 @@
 import style from "./MenuView.module.css";
 import SectionHeader from "../../components/SectionHeader/SectionHeader";
-import headerImage from "../../assets/images/menu-header.webp";
+import headerImage from "../../assets/images/menu-header.jpg";
 import Menu from "../../sections/Menu/Menu";
 
 export default function MenuView() {

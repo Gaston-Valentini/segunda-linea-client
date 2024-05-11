@@ -1,8 +1,8 @@
 import style from "./ImagesNavbar.module.css";
 import { Link } from "react-router-dom";
-import menuImage from "../../assets/images/menu.webp";
-import aboutImage from "../../assets/images/about.webp";
-import contactImage from "../../assets/images/contact.webp";
+import menuImage from "../../assets/images/home-menu.jpg";
+import aboutImage from "../../assets/images/home-about.jpg";
+import contactImage from "../../assets/images/home-contact.jpg";
 import { IoArrowForwardSharp } from "react-icons/io5";
 
 export default function ImagesNavbar() {

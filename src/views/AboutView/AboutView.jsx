@@ -1,6 +1,6 @@
 import style from "./AboutView.module.css";
 import SectionHeader from "../../components/SectionHeader/SectionHeader";
-import headerImage from "../../assets/images/about.webp";
+import headerImage from "../../assets/images/about-header.jpg";
 import Story from "../../sections/Story/Story";
 import Team from "../../sections/Team/Team";
 import Reviews from "../../sections/Reviews/Reviews";
