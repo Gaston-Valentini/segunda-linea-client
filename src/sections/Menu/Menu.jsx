@@ -82,7 +82,7 @@ export default function Menu() {
                     </div>
                     <div className={style.menuSectionPlates}>
                         {starters.map((plate) => (
-                            <Plate key={plate.id} name={plate.name} description={plate.description} price={plate.price} image={"https://framerusercontent.com/images/9kkGOeR8XfJ0bkSq5vagmboso.webp"} />
+                            <Plate key={plate.id} name={plate.name} description={plate.description} price={plate.price} image={plate.photo} />
                         ))}
                     </div>
                 </div>
@@ -94,7 +94,7 @@ export default function Menu() {
                     </div>
                     <div className={style.menuSectionPlates}>
                         {sea.map((plate) => (
-                            <Plate key={plate.id} name={plate.name} description={plate.description} price={plate.price} image={"https://framerusercontent.com/images/9kkGOeR8XfJ0bkSq5vagmboso.webp"} />
+                            <Plate key={plate.id} name={plate.name} description={plate.description} price={plate.price} image={plate.photo} />
                         ))}
                     </div>
                 </div>
@@ -106,7 +106,7 @@ export default function Menu() {
                     </div>
                     <div className={style.menuSectionPlates}>
                         {dirt.map((plate) => (
-                            <Plate key={plate.id} name={plate.name} description={plate.description} price={plate.price} image={"https://framerusercontent.com/images/9kkGOeR8XfJ0bkSq5vagmboso.webp"} />
+                            <Plate key={plate.id} name={plate.name} description={plate.description} price={plate.price} image={plate.photo} />
                         ))}
                     </div>
                 </div>
@@ -118,7 +118,7 @@ export default function Menu() {
                     </div>
                     <div className={style.menuSectionPlates}>
                         {grill.map((plate) => (
-                            <Plate key={plate.id} name={plate.name} description={plate.description} price={plate.price} image={"https://framerusercontent.com/images/9kkGOeR8XfJ0bkSq5vagmboso.webp"} />
+                            <Plate key={plate.id} name={plate.name} description={plate.description} price={plate.price} image={plate.photo} />
                         ))}
                     </div>
                 </div>
@@ -130,7 +130,7 @@ export default function Menu() {
                     </div>
                     <div className={style.menuSectionPlates}>
                         {individuals.map((plate) => (
-                            <Plate key={plate.id} name={plate.name} description={plate.description} price={plate.price} image={"https://framerusercontent.com/images/9kkGOeR8XfJ0bkSq5vagmboso.webp"} />
+                            <Plate key={plate.id} name={plate.name} description={plate.description} price={plate.price} image={plate.photo} />
                         ))}
                     </div>
                 </div>
@@ -142,7 +142,7 @@ export default function Menu() {
                     </div>
                     <div className={style.menuSectionPlates}>
                         {desserts.map((plate) => (
-                            <Plate key={plate.id} name={plate.name} description={plate.description} price={plate.price} image={"https://framerusercontent.com/images/9kkGOeR8XfJ0bkSq5vagmboso.webp"} />
+                            <Plate key={plate.id} name={plate.name} description={plate.description} price={plate.price} image={plate.photo} />
                         ))}
                     </div>
                 </div>
