@@ -82,13 +82,21 @@ export default function ContactData() {
                     <div className={style.dataInfoElement}>
                         <p className={style.dataInfoElementInput}>SÍGUENOS</p>
                         <div className={style.dataInfoElementSocial}>
-                            <a href="https://www.instagram.com/explore/locations/167720516435617/segundalinea-gastrobar/" target="blank" className={style.dataInfoElementSocialLink}>
+                            <a
+                                href="https://www.instagram.com/explore/locations/167720516435617/segundalinea-gastrobar/"
+                                target="blank"
+                                className={style.dataInfoElementSocialLink}
+                            >
                                 <FaInstagram className={style.dataInfoElementSocialLinkIcon} />
                             </a>
                             <div className={style.dataInfoElementSocialLink} onClick={onWhatsapp}>
                                 <FaWhatsapp className={style.dataInfoElementSocialLinkIcon} />
                             </div>
-                            <a href="#" target="blank" className={style.dataInfoElementSocialLink}>
+                            <a
+                                href="https://m.facebook.com/people/SegundaLinea-GastroBar/61556110401414/"
+                                target="blank"
+                                className={style.dataInfoElementSocialLink}
+                            >
                                 <FaFacebookF className={style.dataInfoElementSocialLinkIcon} />
                             </a>
                         </div>

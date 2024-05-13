@@ -29,7 +29,11 @@ export default function HomeHeader() {
                     </div>
                     <ul className={style.dataSocial}>
                         <li className={style.dataSocialElement}>
-                            <a href="https://www.instagram.com/explore/locations/167720516435617/segundalinea-gastrobar/" target="blank" className={style.dataSocialElementLink}>
+                            <a
+                                href="https://www.instagram.com/explore/locations/167720516435617/segundalinea-gastrobar/"
+                                target="blank"
+                                className={style.dataSocialElementLink}
+                            >
                                 <FaInstagram className={style.dataSocialElementLinkIcon} />
                             </a>
                         </li>
@@ -39,7 +43,10 @@ export default function HomeHeader() {
                             </div>
                         </li>
                         <li className={style.dataSocialElement}>
-                            <a href="#" className={style.dataSocialElementLink}>
+                            <a
+                                href="https://m.facebook.com/people/SegundaLinea-GastroBar/61556110401414/"
+                                className={style.dataSocialElementLink}
+                            >
                                 <FaFacebookF className={style.dataSocialElementLinkIcon} />
                             </a>
                         </li>

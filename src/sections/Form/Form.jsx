@@ -38,14 +38,14 @@ export default function Form() {
                     console.log(result);
                     setMessage(200);
                     setTimeout(() => {
-                        setConfirmMessage("");
+                        setMessage("");
                     }, 5000);
                 },
                 (error) => {
                     console.log(error);
-                    setConfirmMessage(400);
+                    setMessage(400);
                     setTimeout(() => {
-                        setConfirmMessage("");
+                        setMessage("");
                     }, 5000);
                 }
             );
