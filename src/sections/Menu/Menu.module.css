@@ -7,7 +7,7 @@
 }
 
 .navbar {
-    width: 100%;
+    width: calc(100% - 25px);
     list-style: none;
     padding: 10px;
     display: flex;
@@ -34,7 +34,7 @@
 }
 
 .menu {
-    width: calc(100% - 60px);
+    width: calc(100% - 80px);
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -92,7 +92,11 @@
     .container {
         gap: 15px;
     }
+    .navbar {
+        width: calc(100% - 20px);
+    }
     .menu {
+        width: calc(100% - 40px);
         padding: 20px;
     }
     .menuSectionTitleText {
