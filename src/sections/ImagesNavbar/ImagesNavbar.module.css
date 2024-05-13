@@ -6,6 +6,7 @@
 }
 
 .element {
+    min-height: 200px;
     text-decoration: none;
     border-radius: 15px;
     background-size: cover;

@@ -1,4 +1,8 @@
 import defaultPhoto from "../assets/images/menu-default.png";
+import dessertsPanqueque from "../assets/images/menu/desserts-panqueque.jpg";
+import dirtBruschetta from "../assets/images/menu/dirt-bruschetta.jpg";
+import seaCalamarPlancha from "../assets/images/menu/sea-calamar-plancha.jpg";
+import seaDocenaGambas from "../assets/images/menu/sea-docena-gambas.jpg";
 
 const menuStarters = [
     {
@@ -160,7 +164,7 @@ const menuSea = [
         description:
             "Calamar fresco cocinado a la plancha con ajo y aceite de oliva. Un plato ligero pero con un sabor profundo.",
         price: "19,00",
-        photo: defaultPhoto,
+        photo: seaCalamarPlancha,
     },
     {
         id: 21,
@@ -175,7 +179,7 @@ const menuSea = [
         name: "DOCENA DE GAMBAS ROJAS A LA PLANCHA",
         description: "Una docena de gambas rojas cocinadas a la plancha. Perfecto para compartir entre amigos.",
         price: "19,90",
-        photo: defaultPhoto,
+        photo: seaDocenaGambas,
     },
     {
         id: 23,
@@ -194,7 +198,7 @@ const menuDirt = [
         description:
             "Cuatro rebanadas de pan tostado con jamón ibérico o salmón ahumado aderasadas con una deliciosa salsa de la casa.",
         price: "9,60",
-        photo: defaultPhoto,
+        photo: dirtBruschetta,
     },
     {
         id: 25,
@@ -382,7 +386,7 @@ const menuDesserts = [
         name: "PANQUEQUE CON DULCE DE LECHE",
         description: "Panqueque suave y esponjoso, relleno con dulce de leche, servido con una bola de helado.",
         price: "5,50",
-        photo: defaultPhoto,
+        photo: dessertsPanqueque,
     },
     {
         id: 49,
