@@ -13,13 +13,14 @@ export default function Story() {
                     <DecoratorRight />
                 </div>
                 <p className={style.textParagraph}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis vitae nisi velit. Aliquid nostrum delectus odit repellat nihil ea amet suscipit magni nobis vel maiores nesciunt sit, aperiam ex officia!
+                    En nuestro compromiso por brindar una experiencia gastronómica excepcional, en Segunda Línea Gastrobar nos esforzamos por crear un ambiente acogedor donde nuestros clientes puedan disfrutar de momentos memorables. Nos enorgullece ofrecer un servicio ameno y cordial, respaldado por una cuidadosa selección de los mejores productos del mercado.
                     <br />
                     <br />
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda sunt perferendis inventore ullam? Unde veniam magni error culpa. Quidem inventore commodi aut consequuntur nam soluta dicta doloribus eum reiciendis obcaecati?
+                    Nuestra pasión por la calidad se refleja en cada plato que servimos. Desde los ingredientes más frescos hasta las selecciones más exclusivas, nos comprometemos a superar las expectativas culinarias de quienes nos visitan. A pesar de nuestra dedicación a la excelencia, mantenemos precios accesibles sin comprometer la calidad, asegurando que cada experiencia sea verdaderamente gratificante.
                     <br />
                     <br />
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores saepe doloribus explicabo aliquid laboriosam. Tempore, tempora officiis! Quo deserunt dolorem exercitationem quaerat illo nemo? Deleniti amet dolores accusantium officiis quisquam.
+                    En un mundo cada vez más digital, reconocemos el valor del boca a boca como la forma más poderosa de publicidad. Por eso, nos esforzamos por ofrecer no solo una comida deliciosa, sino también un servicio que inspire a nuestros clientes a compartir sus experiencias con amigos, familiares y colegas. Creemos en la importancia de cultivar relaciones sólidas con nuestra comunidad, y trabajamos diligentemente para garantizar que cada visita a nuestro establecimiento sea una
+                    experiencia memorable digna de recomendar.
                 </p>
             </div>
             <ArouwsCarousel />

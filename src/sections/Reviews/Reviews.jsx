@@ -69,9 +69,6 @@ export default function Reviews() {
                 <div className={style.reviewsBig}>
                     {reviews.map((review, index) => (
                         <div key={index} className={style.reviewsBigCard} style={{ transform: `translateX(${getTranslateValue()})` }}>
-                            <div className={style.reviewsBigCardImage}>
-                                <img src={review.profile_photo_url} />
-                            </div>
                             <p className={style.reviewsBigCardName}>{review.author_name}</p>
                             <div className={style.reviewsBigCardRating}>
                                 {Array.from({ length: review.rating }, (_, index) => (

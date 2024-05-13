@@ -77,7 +77,7 @@ export default function ContactData() {
                     </div>
                     <div className={style.dataInfoElement}>
                         <p className={style.dataInfoElementInput}>EMAIL</p>
-                        <p className={style.dataInfoElementOutput}>segundalinea@gmail.com</p>
+                        <p className={style.dataInfoElementOutput}>segundalineagastrobar@gmail.com</p>
                     </div>
                     <div className={style.dataInfoElement}>
                         <p className={style.dataInfoElementInput}>SÍGUENOS</p>
