@@ -82,7 +82,13 @@ export default function Menu() {
                     </div>
                     <div className={style.menuSectionPlates}>
                         {starters.map((plate) => (
-                            <Plate key={plate.id} name={plate.name} description={plate.description} price={plate.price} image={plate.photo} />
+                            <Plate
+                                key={plate.id}
+                                name={plate.name}
+                                description={plate.description}
+                                price={plate.price}
+                                image={plate.photo}
+                            />
                         ))}
                     </div>
                 </div>
@@ -94,7 +100,13 @@ export default function Menu() {
                     </div>
                     <div className={style.menuSectionPlates}>
                         {sea.map((plate) => (
-                            <Plate key={plate.id} name={plate.name} description={plate.description} price={plate.price} image={plate.photo} />
+                            <Plate
+                                key={plate.id}
+                                name={plate.name}
+                                description={plate.description}
+                                price={plate.price}
+                                image={plate.photo}
+                            />
                         ))}
                     </div>
                 </div>
@@ -106,7 +118,13 @@ export default function Menu() {
                     </div>
                     <div className={style.menuSectionPlates}>
                         {dirt.map((plate) => (
-                            <Plate key={plate.id} name={plate.name} description={plate.description} price={plate.price} image={plate.photo} />
+                            <Plate
+                                key={plate.id}
+                                name={plate.name}
+                                description={plate.description}
+                                price={plate.price}
+                                image={plate.photo}
+                            />
                         ))}
                     </div>
                 </div>
@@ -118,7 +136,13 @@ export default function Menu() {
                     </div>
                     <div className={style.menuSectionPlates}>
                         {grill.map((plate) => (
-                            <Plate key={plate.id} name={plate.name} description={plate.description} price={plate.price} image={plate.photo} />
+                            <Plate
+                                key={plate.id}
+                                name={plate.name}
+                                description={plate.description}
+                                price={plate.price}
+                                image={plate.photo}
+                            />
                         ))}
                     </div>
                 </div>
@@ -130,7 +154,13 @@ export default function Menu() {
                     </div>
                     <div className={style.menuSectionPlates}>
                         {individuals.map((plate) => (
-                            <Plate key={plate.id} name={plate.name} description={plate.description} price={plate.price} image={plate.photo} />
+                            <Plate
+                                key={plate.id}
+                                name={plate.name}
+                                description={plate.description}
+                                price={plate.price}
+                                image={plate.photo}
+                            />
                         ))}
                     </div>
                 </div>
@@ -142,10 +172,19 @@ export default function Menu() {
                     </div>
                     <div className={style.menuSectionPlates}>
                         {desserts.map((plate) => (
-                            <Plate key={plate.id} name={plate.name} description={plate.description} price={plate.price} image={plate.photo} />
+                            <Plate
+                                key={plate.id}
+                                name={plate.name}
+                                description={plate.description}
+                                price={plate.price}
+                                image={plate.photo}
+                            />
                         ))}
                     </div>
                 </div>
+            </div>
+            <div className={style.scroll} onClick={() => scrollTo(0, 0)}>
+                Subir al inicio
             </div>
         </section>
     );
