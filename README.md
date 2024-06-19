@@ -1,4 +1,4 @@
-# Segunda Línea - Sitio web (cliente)
+# Segunda Línea Gastrobar - Sitio web (cliente)
 
 <img src="./src/assets/images/logo-gold.png" width="100%"/>
 
@@ -19,9 +19,9 @@
 
 ## Descripción del Proyecto y Objetivo
 
-Este proyecto consiste en el desarrollo de la página web de [Segunda Línea](https://www.segundalineagastrobar.es), un restaurante ubicado precisamente
-en segunda línea de playa en Benidorm, Alicante, España. Se trata de un trabajo freelance cuyo objetivo es proporcionar a los clientes información
-detallada sobre el establecimiento, como el menú, los platos estrella, imágenes del local, así como datos de contacto y horarios de atención.
+Este proyecto consiste en el desarrollo de la página web de [Segunda Línea](https://www.segundalineagastrobar.es), un restaurante ubicado precisamente en segunda línea de playa en Benidorm, Alicante,
+España. Se trata de un trabajo freelance cuyo objetivo es proporcionar a los clientes información detallada sobre el establecimiento, como el menú, los platos estrella, imágenes del local, así como
+datos de contacto y horarios de atención.
 
 ## Capturas de pantalla
 
@@ -45,12 +45,11 @@ detallada sobre el establecimiento, como el menú, los platos estrella, imágene
 -   Diseño web moderno y responsivo de alto nivel, adaptado a todas las resoluciones de pantalla.
 -   Presentación visual del contenido mediante la implementación de carruseles desarrollados de manera nativa.
 -   Implementación de elementos de diseño como íconos con la librería de [react-icons](https://react-icons.github.io/react-icons/).
--   Utilización de la librería [react-google-maps](https://visgl.github.io/react-google-maps/) para renderizar un componente con un mapa interactivo,
-    donde se muestra la ubicación del local.
+-   Utilización de la librería [react-google-maps](https://visgl.github.io/react-google-maps/) para renderizar un componente con un mapa interactivo, donde se muestra la ubicación del local.
 -   Utilización de la [API de Google Maps](https://developers.google.com/maps) para renderizar las reseñas que tiene el local en Google Maps.
--   Implementación del servicio de [EmailJS](https://www.emailjs.com/) para gestionar el envío de correos electrónicos mediante un formulario al
-    correo de la empresa.
--   Navegación entre las diferentes vistas mediante el uso de la biblioteca [react-router-dom](https://reactrouter.com/en/main).
+-   Presentación de un botón fijo en la pantalla que permite contactar al instante con la clínica mediante Whatsapp.
+-   Implementación del servicio de [EmailJS](https://www.emailjs.com/) para gestionar el envío de correos electrónicos mediante un formulario al correo de la empresa.
+-   Navegación entre las diferentes vistas mediante el uso de la librería [react-router-dom](https://reactrouter.com/en/main).
 -   Implementación de variables de entorno, con el objetivo de mantener la privacidad y seguridad del usuario y ocultar información sensible.
 
 ## Tecnologías
@@ -86,8 +85,7 @@ Para correr este servicio de manera local deberá seguir los siguientes pasos:
 ## Variables de entorno
 
 -   VITE_GOOGLE_API_KEY (Clave API del servicio de Google Maps)
--   VITE_GOOGLE_PLACE_ID (Place ID del local en Google Maps)
--   VITE_MAP_ID="VITE_MAP_ID" (Id del mapa del servicio de Google Maps)
+-   VITE_GOOGLE_MAP_ID (Id del mapa del servicio de Google Maps)
 -   VITE_EMAILJS_SERVICE_ID (Id del servicio generado en EmailJS)
 -   VITE_EMAILJS_TEMPLATE_ID (Id de la plantilla que se utilizará para dar forma al correo electrónico de EmailJS)
 -   VITE_EMAILJS_PUBLIC_KEY (Clave pública del usuario de EmailJS)
@@ -95,14 +93,14 @@ Para correr este servicio de manera local deberá seguir los siguientes pasos:
 ## Estructura del proyecto
 
 ```
-benilaser-client/
+segunda-linea-client/
 ├── public/ (Contiene las imágenes del README.md)
 ├── src/
-│   ├── assets/ (Contiene contenido multimedia)
+│   ├── assets/ (Contiene archivos multimedia)
 │   ├── components/ (Contiene componentes reutilizables)
 │   ├── data/ (Contiene los archivos de información y datos)
 │   ├── sections/ (Contiene las secciones de la web)
-│   ├── views/ (Contiene las 5 diferentes vistas de la web, donde se mostraran las secciones)
+│   ├── views/ (Contiene las diferentes vistas de la web, donde se mostraran las secciones)
 │   ├── App.jsx (Contiene toda la aplicación que se renderizará en el root de index.html)
 │   ├── App.module.css (Contiene los estilos generales del componente App)
 │   ├── index.css (Contiene las configuraciones generales de estilo y variables globales)
@@ -138,6 +136,6 @@ Para preguntas o colaboraciones, puedes contactarme a través de mis redes:
 
 ## Agradecimientos
 
-Me gustaría agradecer a todo el equipo de Segunda Línea por hacer posible esta colaboración.
+Me gustaría agradecer a todo el equipo de Segunda Línea Gastrobar por hacer posible esta colaboración.
 
-[Volver al inicio](#segunda-línea---sitio-web-cliente)
+[Volver al inicio](#segunda-línea-gastrobar---sitio-web-cliente)
